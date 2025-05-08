@@ -123,18 +123,18 @@ export const DATA = {
       description:
         "Leading UI development for creative design platform",
     },
-    {
-      company: "Toptal",
-      href: "https://www.toptal.com/",
-      badges: ["Freelance"],
-      location: "Remote",
-      title: "Senior UI Developer",
-      logoUrl: "https://images.icon-icons.com/2699/PNG/512/toptal_logo_icon_168482.png",
-      start: "2021",
-      end: "Present",
-      description:
-        "Elite freelance developer delivering cutting-edge web applications in AI and blockchain technologies for global clients.",
-    },
+    // {
+    //   company: "Toptal",
+    //   href: "https://www.toptal.com/",
+    //   badges: ["Freelance"],
+    //   location: "Remote",
+    //   title: "Senior UI Developer",
+    //   logoUrl: "https://images.icon-icons.com/2699/PNG/512/toptal_logo_icon_168482.png",
+    //   start: "2021",
+    //   end: "Present",
+    //   description:
+    //     "Elite freelance developer delivering cutting-edge web applications in AI and blockchain technologies for global clients.",
+    // },
     {
       company: "LogicMonitor",
       href: "https://logicmonitor.com",
@@ -200,11 +200,11 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "AI Content Studio",
-      href: "",
-      dates: "Jan 2024 - Present",
+      title: "ATS Resume Builder",
+      href: "https://ai-resume-builder-one-liard.vercel.app/",
+      dates: "April 2025 - May 2025",
       active: true,
-      description: "An AI-powered content creation platform enabling content creators to generate, optimize, and monetize multi-format digital content. The platform leverages advanced AI models to analyze content trends, optimize SEO performance, and provide actionable analytics.",
+      description: "An AI-driven platform designed to create ATS-optimized tailored resumes for job seekers. The platform utilizes advanced AI models to analyze job descriptions, perform keyword targeting, and optimize or generate new resumes, ensuring alignment with specific job requirements.",
       technologies: [
         "JavaScript",
         "TypeScript",
