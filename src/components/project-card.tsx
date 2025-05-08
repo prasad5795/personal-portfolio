@@ -77,6 +77,14 @@ export function ProjectCard({
           <div className="hidden font-sans text-xs underline print:visible">
             {link?.replace("https://", "").replace("www.", "").replace("/", "")}
           </div>
+          <p className="text-xs">
+            <Link
+              href={href || "#"}
+              className={cn("block cursor-pointer", className)}
+            >
+              <span className="text-blue-500">{href}</span>
+            </Link>
+          </p>
           <Markdown className="prose max-w-full text-pretty font-sans text-xs text-muted-foreground dark:prose-invert">
             {description}
           </Markdown>
